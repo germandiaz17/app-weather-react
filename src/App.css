@@ -3,11 +3,11 @@
   justify-content: center;
   align-items: center;
   height: 100vh;
-  background-color: aliceblue;
+  background-color: #D5D5D5;
 }
 
 .box {
-  background-color: aqua;
+  background-color: #FFFFFF;
   border-radius: 5px;
   width: 380px;
   height: 460px;
@@ -18,4 +18,18 @@
   height: 50px;
   display: flex;
   align-items: center;
+  padding-left: 10px;
+}
+
+.content-box{
+  padding: 10px;
+}
+
+h1{
+  font-size: 23px;
+}
+
+.icon{
+  width: 80px;
+  height: 80px;
 }
