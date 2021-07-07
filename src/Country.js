@@ -1,6 +1,7 @@
 import Icon from "./Icon";
 import Temperature from "./Temperature";
 const Country = ({data}) => {
+    console.log(data)
 
     if(!data) {
         return null
@@ -13,7 +14,7 @@ const Country = ({data}) => {
             <h2>{data.location.region}/{data.location.name}</h2>
             <p>"{data.current.condition.text}"</p>
             <Icon icon={data.current.condition.icon} />
-            <p>date: {data.current.last_updated}</p>
+            <p>date: {data.location.localtime}</p>
             <p>humidity: {data.current.humidity}%</p>
             <p>wind: {data.current.wind_kph} k/h</p>
             <Temperature celcius={data.current.temp_c} Farent={data.current.temp_f}/>
