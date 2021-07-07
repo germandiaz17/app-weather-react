@@ -10,7 +10,6 @@
   background-color: #FFFFFF;
   border-radius: 5px;
   width: 380px;
-  height: 460px;
 }
 
 .title-box{
@@ -32,4 +31,17 @@ h1{
 .icon{
   width: 80px;
   height: 80px;
+}
+
+.temperatureButton{
+  cursor: pointer;
+  border: 0;
+  border-radius: 5px;
+  padding: 10px 20px;
+  background-color: #4992DF;
+  color: #FFFFFF;
+}
+
+.temperatureButton:hover{
+  background-color: #5FA9F8;
 }
